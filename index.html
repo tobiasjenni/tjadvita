@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TJ Advita</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --text: #d4d4dc;
+    --text2: #8a8a9a;
+    --accent: #c9a84c;
+    --surface: #12121a;
+    --border: #2a2a38;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Georgia', 'Times New Roman', serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  h1 {
+    font-size: 3em;
+    letter-spacing: 6px;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+  .tagline {
+    color: var(--text2);
+    font-style: italic;
+    font-size: 1.1em;
+    margin-bottom: 40px;
+  }
+  .line {
+    width: 50px; height: 1px;
+    background: var(--accent);
+    margin: 0 auto 40px;
+    opacity: 0.5;
+  }
+  .cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 30px 24px;
+    width: 280px;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.3s;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card h2 {
+    color: var(--accent);
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+  .card p {
+    color: var(--text2);
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+  .card .icon {
+    font-size: 2em;
+    margin-bottom: 12px;
+  }
+  footer {
+    margin-top: 60px;
+    color: var(--text2);
+    font-size: 0.75em;
+    opacity: 0.5;
+  }
+</style>
+</head>
+<body>
+
+<h1>TJ ADVITA</h1>
+<div class="tagline">Transformation · Integration · Praxis</div>
+<div class="line"></div>
+
+<div class="cards">
+  <a href="/lila" class="card">
+    <div class="icon">🎲</div>
+    <h2>Lila</h2>
+    <p>The 72-Cell Self-Knowledge Game. A crystal mirror that does not flatter. Enter with intention — leave with clarity.</p>
+  </a>
+  <a href="#" class="card">
+    <div class="icon">⚕️</div>
+    <h2>TR4NSFORM</h2>
+    <p>Integrative wellness protocols. Peptide therapies. Human Design. Organizational transformation.</p>
+  </a>
+  <a href="#" class="card">
+    <div class="icon">🧘</div>
+    <h2>Praxis</h2>
+    <p>Yoga · Meditation · Dzogchen · Tantra. The contemplative dimension of transformation.</p>
+  </a>
+</div>
+
+<footer>TJ Advita &copy; 2026 &nbsp;·&nbsp; Non-duality in practice</footer>
+
+</body>
+</html>
